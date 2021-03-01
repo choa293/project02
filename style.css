@@ -1,0 +1,354 @@
+
+@font-face{
+
+  font-family:UbuntuBold;
+  src:url(UbuntuBold.ttf);
+}
+
+@font-face{
+
+  font-family:Oxygen;
+  src:url(Oxygen-Regular.ttf);
+
+}
+
+
+body {
+
+  background-color: #FCF5E1; 
+  font-family:Oxygen;
+}
+
+img {
+  max-width: 100%;
+}
+
+div.title {
+ 
+  font-family: UbuntuBold;
+  color:#01300B;
+  height:200px;
+ /* width: 0%;*/
+ /* padding-top:20px;*/
+}
+
+.title1 {
+  transform: rotate(270deg);
+  position:relative;
+  font-size:80px;
+  top:450px;
+  left:-370px;
+  width:600px;
+  height:90px;
+}
+
+.title2 {
+   position:relative;
+  font-size:94px;
+  top:18px;
+  width:560px;
+  height:110px;
+}
+
+.title3{
+  transform: rotate(90deg);
+  position:relative;
+  font-size:120px;
+  top:180px;
+  left:390px;
+  width:400px;
+  height:140px;
+}
+
+.one {
+background: #A2CBAC;
+color:#A2CBAC;
+font-size:3px;
+padding-left:27px;
+padding-right:27px;
+padding-top:20px;
+padding-bottom:20px;
+line-height: 4px;
+text-align:left;
+border: 7px solid #01300B;
+box-sizing: border-box;
+grid-column:1 / 3;
+grid-row:1 / 3;
+
+}
+
+.one a{
+
+  text-decoration:none;
+  color:#A2CBAC;
+
+}
+
+.one:hover a{
+  color:#013C0E;
+}
+
+.two {
+background: #83B28E;
+color: #83B28E;
+text-align:left;
+font-size:3px;
+line-height: 4px;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:27px;
+padding-right:27px;
+border: 7px solid #01300B;
+box-sizing: border-box;
+grid-column:3/ 6;
+grid-row:1 / 2;
+}
+
+.two a{
+
+  text-decoration:none;
+  color:#83B28E;
+
+}
+
+.two:hover a{
+color:#013C0E;
+}
+
+.three {
+/*width: 141px;
+height: 298px;*/
+background:#63976F;
+color: #63976F;
+text-align:left;
+font-size:2px;
+line-height: 3px;
+padding-top:13px;
+padding-bottom:13px;
+padding-left:11px;
+padding-right:11px;
+border: 7px solid #01300B;
+box-sizing: border-box;
+grid-column:6/ 7;
+grid-row:1 / 2;
+}
+
+.three a{
+
+  text-decoration:none;
+  color:#63976E;
+
+}
+
+.three:hover a{
+color:#013C0E;
+}
+
+.four {
+/*width: 146px;
+height: 519px;*/
+background: #4C8158; 
+color:#4C8158;
+text-align:left;
+font-size:3px;
+line-height: 4px;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:24px;
+padding-right:24px;
+border: 7px solid #01300B;
+box-sizing: border-box;
+grid-column:3/ 5;
+grid-row:2/ 3;
+}
+
+.four a{
+
+  text-decoration:none;
+  color:#4C8158;
+
+}
+
+.four:hover a{
+color:#FCF5E1;
+}
+
+.five {
+background: #245F32;
+color:#245F32;
+text-align:left;
+font-size:3px;
+line-height: 4px;
+padding-bottom:15px;
+padding-top:15px;
+padding-left:31px;
+padding-right:31px;
+border: 7px solid #01300B;
+box-sizing: border-box;
+grid-column:1 / 5;
+grid-row:3 / 4;
+}
+
+.five a{
+
+  text-decoration:none;
+  color:#245F32;
+
+}
+
+.five:hover a{
+color:#FCF5E1;
+}
+
+
+.six {
+background: #013C0E;
+color:#013C0E;
+font-size:3px;
+line-height: 4px;
+padding-left:27px;
+padding-right:27px;
+padding-top:20px;
+
+text-align:left;
+border: 7px solid #01300B;
+box-sizing: border-box;
+grid-column:5 / 7;
+grid-row:2 / 4;
+}
+
+.six a{
+
+  text-decoration:none;
+  color:#013C0E;
+
+}
+
+.six:hover a{
+color:#FCF5E1;
+}
+
+
+.everything {
+padding-top:40px;
+display:grid;  
+grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows:1fr 1fr 1fr ;
+grid-gap:20px;
+height:600px;
+width:600px;
+
+
+}
+
+
+.button{
+
+  font-family:UbuntuBold;
+  background-color:#FCF5E1;
+  color: #01300B;
+  font-size:50px;
+  border:none;
+  width:170px;
+  height:70px;
+  padding:10px;
+}
+
+@media only screen and (max-width: 950px) {
+
+
+.title1 {
+  font-size:70px;
+  top:400px;
+  left:-250px;
+  width:600px;
+  height:70px;
+}
+
+.title2 {
+   position:relative;
+  font-size:70px;
+  top:60px;
+  width:470px;
+  height:70px;
+}
+
+.title3{
+  font-size:70px;
+  top:210px;
+  left:250px;
+  width:400px;
+  height:70px;
+}
+
+.one {
+font-size:1.6px;
+line-height: 3px;
+padding-left:10px;
+padding-right:10px;
+padding-top:8px;
+padding-bottom:8px;
+}
+
+.two {
+font-size:2px;
+line-height: 3px;
+padding-top:13px;
+padding-bottom:7px;
+padding-left:14px;
+padding-right:14px;
+}
+
+.three {
+font-size:1.7px;
+line-height: 2.7px;
+padding-top:7px;
+padding-bottom:7px;
+padding-left:6px;
+padding-right:6px;
+}
+
+.four {
+font-size:1px;
+line-height: 2px;
+padding-left:10px;
+padding-right:10px;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+.five {
+font-size:2px;
+line-height: 3px;
+padding-top:10px;
+padding-left:12px;
+padding-right:12px;
+}
+
+.six {
+font-size:2px;
+line-height: 2.9px;
+padding-left:12px;
+padding-right:12px;
+padding-top:15px;
+}
+
+.everything {
+    margin-left: auto;
+    margin-right: auto;
+    grid-gap:8px;
+    width:340px;
+    height:300px;
+  }
+
+.button{
+
+  position:relative;
+  font-size:30px;
+  width:100px;
+  height:50px;
+  padding:0px;
+  top:95px;
+}
+  
+}
